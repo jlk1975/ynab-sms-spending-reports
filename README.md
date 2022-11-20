@@ -1,1 +1,1 @@
-# ynab-sms-spending-reports-
+# ynab-sms-spending-reports
