@@ -4,4 +4,6 @@ High level idea is to use a simple python script + deploy it using github action
 
 - Once the basic app is working, let's see if we can wrap some observability around it by adding some Prometheus and Grafana timeseries YNAB reports into the mix, as well as some basic logging and alerting on if the script ever throws any error messages when it runs, like how else would we know there was a problem unless we did not get our SMS YNAB report?
 
+- Next step: read about github actions: https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
+
 note: try this out https://github.com/marketplace/actions/scp-deployer
