@@ -6,4 +6,15 @@ High level idea is to use a simple python script + deploy it using github action
 
 - Next step: read about github actions: https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
 
+- Report Ideas
+- Daily
+  - You spent x $ yesterday on category z, which was y $ more/less than the day before.
+  - You've spent X% of your allocated budget this week for category Z. 
+  - You are x$ ahead/behind spending for this week for category Z.
+  - You have spent X% more/less this week for category Z compared to spending by this point in the week last week.
+  - Your cumulative average daily spending for categorey Z has increased/decreased by X% since the very fist transaction for categorey Z.
+- Monthly
+- Quarterly
+- Yearly
+
 note: try this out https://github.com/marketplace/actions/scp-deployer
