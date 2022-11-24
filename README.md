@@ -4,6 +4,15 @@ High level idea is to use a simple golang program + deploy it using github actio
 
 - Once the basic app is working, let's see if we can wrap some observability around it by adding some Prometheus and Grafana timeseries YNAB reports into the mix, as well as some basic logging and alerting on if the script ever throws any error messages when it runs, like how else would we know there was a problem unless we did not get our SMS YNAB report?
 
+## Project Characteristics
+- Golang
+- YNAB API
+- Something to send SMS (AWS, Twilio, Other?) 
+- CircleCI
+- Prometheus/Grafana (How can the app export Prometheus endponts?)
+- Splunk if Possible (free?)
+- Will the golang app just run in a cron job , or run all the time in a docker container?
+
 - Next step: read about github actions: https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
 
 - Report Ideas
