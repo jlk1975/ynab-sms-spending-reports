@@ -13,6 +13,9 @@ High level idea is to use a simple golang program + deploy it using github actio
 - Splunk if Possible (free?)
 - Will the golang app just run in a cron job , or run all the time in a docker container?
 
+## to run
+- go run sms.go
+
 - Next step: read about github actions: https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
 
 - Report Ideas
