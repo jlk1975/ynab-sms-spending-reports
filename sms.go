@@ -11,7 +11,7 @@ func main() {
     params := &openapi.CreateMessageParams{}
     params.SetTo(os.Getenv("TO_PHONE_NUMBER"))
     params.SetFrom(os.Getenv("TWILIO_PHONE_NUMBER"))
-    params.SetBody("Hello from Golang!")
+    params.SetBody("Hello from Golang!  💩 😃")
 
     _, err := client.Api.CreateMessage(params)
     if err != nil {
