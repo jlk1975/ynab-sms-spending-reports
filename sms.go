@@ -1,3 +1,4 @@
+/*
 package main
 
 import twilio "github.com/twilio/twilio-go"
@@ -20,3 +21,4 @@ func main() {
         fmt.Println("SMS sent successfully!")
     }
 }
+*/
